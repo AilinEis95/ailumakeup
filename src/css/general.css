@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+.fondo {
+background-image: url('https://i.pinimg.com/736x/17/f3/df/17f3df5751abc0b44101af90834a3377.jpg');
+background-size: cover;
+background-position: center;
+height: 100vh; /* 100% de la altura de la ventana */
+}
