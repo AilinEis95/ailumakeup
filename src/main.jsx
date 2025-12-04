@@ -11,7 +11,6 @@ import Pie from './componentes/pie'
 import Objetos from './componentes/objetos'
 import Pruebas from './componentes/pruebas'
 import ClaseForm from './componentes/claseform'
-import Carrusel from "./componentes/carrusel"
 //import Principal from "./componentes/principal"
 import Principal from "./componentes/principal"
 

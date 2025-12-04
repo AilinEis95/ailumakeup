@@ -1,6 +1,4 @@
-import Carrusel from "/Carrusel";
 export default function Principal() {
-    
 return (
 
     <>
