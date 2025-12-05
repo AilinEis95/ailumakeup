@@ -17,12 +17,12 @@ export default function ClaseForm(){
                 <div className="m-5">
                 <h3 className="m-4 text-2xl font-bold">Selecciona la opción que creas correspondiente</h3>
                     <form>
-                        <input type="checkbox" id="pielgrasa" name="pielgrasa" value="Piel Grasa" />
-                        <label for="vehiculo1">Tengo piel grasa</label><br/>
-                        <input type="checkbox" id="piel seca" name="pielseca" value="Piel Seca" />
-                        <label for="vehiculo2">Tengo piel seca</label><br/>
-                        <input type="checkbox" id="pielmixta" name="pielmixta" value="Piel Mixta" />
-                        <label for="vehiculo3">Tengo piel mixta</label><br/>
+                        <input type="radio" name="pielgrasa" value="Piel Grasa" />
+                        <label>Tengo piel grasa</label><br/>
+                        <input type="radio" name="pielseca" value="Piel Seca" />
+                        <label>Tengo piel seca</label><br/>
+                        <input type="radio" name="pielmixta" value="Piel Mixta" />
+                        <label>Tengo piel mixta</label><br/>
                     </form>
                     </div>
                 </div>

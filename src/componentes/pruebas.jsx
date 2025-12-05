@@ -16,26 +16,6 @@ export default function Pruebas(){
                 <label for="fnac">Fecha de Nacimiento:</label><br/>
                 <input type="date" name="fnac" id="fnac" /><br/>
             </div>
-            <div className="formradios m-4">
-                <p className="font-bold text-sm">Tipo de vehiculo</p>
-                <input type="radio" name="fvehiculo" id="fauto" value="Auto" />
-                <label for="fvehiculo">Tengo Auto</label><br/>
-                <input type="radio" name="fvehiculo" id="fmoto" value="Moto" />
-                <label for="fvehiculo">Tengo Moto</label><br/>
-                <input type="radio" name="fvehiculo" id="fbici" value="Bici" />
-                <label for="fvehiculo">Tengo Bici</label><br/>
-                <input type="radio" name="fvehiculo" id="fnote" value="No Tengo" />
-                <label for="fvehiculo">No tengo vehiculo</label><br/>
-            </div>
-            <div className="formcheckbox m-4">
-                <p className=" font-bold text-sm">Estudios</p>
-                <input type="checkbox" name="festudio1" id="festudio1" value="Primario" />
-                <label for="festudio1">Estudio Primario</label><br/>
-                <input type="checkbox" name="festudio2" id="festudio2" value="Secundario" />
-                <label for="festudio2">Estudio Secundario</label><br/>
-                <input type="checkbox" name="festudio3" id="festudio3" value="Terciario" />
-                <label for="festudio3">Estudio Terciario 😀</label><br/>
-            </div>
         </form>
     )
 }
